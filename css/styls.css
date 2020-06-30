@@ -1,0 +1,132 @@
+*
+{
+	box-sizing:border-box;
+}
+#navbar-header {
+	background-color:gray;
+	
+	border-style: solid;
+  border-color: black;
+  border-width:5px;
+  border-left-width:0px;
+  border-right-width:0px;
+	width:100%;
+	height:80px;
+	padding:0;
+	margin:0 ;
+}
+.navbar-brand > p
+{
+	margin-top:10px;
+	margin-left:20px;
+	padding:0;
+	font-family:Cursive;
+	font-size:30px;
+	  font-weight: bold;
+}
+.navbar-toggle
+{
+	position:relative;
+	float:right;
+	padding:9px 10px;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;
+	background-color: transparent;
+	background-image:none;
+	border:3px solid black;
+	border-radius:8px;
+}
+.navbar-toggle:focus
+{
+	outline:0;
+}
+.navbar-toggle .icon-bar
+{
+	display: block;
+	width:28px;
+	height:6px;
+	border-radius:4px;
+	background-color:black;
+}
+.navbar-toggle:hover
+{
+	text-decoration:none;
+	background-color:white;
+}
+.navbar-toggle .icon-bar + .icon-bar
+{
+	margin-top:4px;
+}
+
+	@media (min-width:576px)
+{
+	.navbar-toggle{
+		display:none;
+	}
+
+}
+#nav-list {
+  color: black;
+}
+
+hr {
+  border-color: black;
+}
+
+.item {
+  color: black;
+  font-size: 1.2em;
+}
+main > p {
+    text-align: center;
+    color: black;
+}
+section h2
+{
+	float:center;
+    
+    
+    text-align: center;
+    font-style: Times;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 20px;
+}
+.text-center
+{
+	margin-top:80px;
+	font-size:30px;
+	font-weight: bold;
+	font-family:Cursive;
+}
+	
+section 
+{
+	/*margin-left:120px;*/
+	margin-top:30px;
+	background-color:gray;
+	
+
+}
+section > p {
+	
+	margin-left:20px;
+	font-size:20px;
+    padding: 10px 15px 15px 15px;
+}
+#one > h2{
+	
+	color:black;
+}
+#two > h2{
+	
+	color:black;
+}
+#three > h2{
+	
+	color:black;
+}
+.row {
+    width: 100%;
